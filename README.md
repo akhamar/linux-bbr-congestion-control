@@ -62,3 +62,7 @@ net.ipv4.tcp_congestion_control = bbr
 ```
 tcp_bbr                20480  3
 ```
+
+## Sources
+
+https://djangocas.dev/blog/huge-improve-network-performance-by-change-tcp-congestion-control-to-bbr/
