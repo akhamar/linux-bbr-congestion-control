@@ -34,6 +34,7 @@ net.ipv4.tcp_congestion_control = cubic
 ### Activate BBR
 
 > modprobe tcp_bbr
+> 
 > echo "tcp_bbr" > /etc/modules-load.d/bbr.conf
 
 
@@ -51,6 +52,7 @@ net.core.default_qdisc = fq
 
 
 > sysctl -p
+> 
 > sysctl net.ipv4.tcp_congestion_control
 ```
 net.ipv4.tcp_congestion_control = bbr
